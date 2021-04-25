@@ -1,2 +1,3 @@
-# divisas
-Conversión de divisas, ejercicio de programación C.
+# Divisas
+## Author: Moced HC
+Conversor de divisas, ejercicio de programación C.
