@@ -31,19 +31,23 @@ int main(){
                     printf("\n      CONVERSOR DE PESOS MEXICANOS (MXN)");
                     printf("\n      D%cLARES AMERICANOS (USD)", 224);
                     printf("\n\n %.2f MXN equivalen a %.2f USD.\n\n Tipo de cambio actualizado al 26 de abril de 2021.\n\n", mxn, mxn * usd);
+                    system("pause");
                     break;
             case 2:
                     printf("\n      CONVERSOR DE PESOS MEXICANOS (MXN)");
                     printf("\n      LIBRAS ESTERLINAS (GBP)");
                     printf("\n\n %.2f MXN equivalen a %.2f GBP.\n\n Tipo de cambio actualizado al 26 de abril de 2021.\n\n", mxn, mxn * gbp);
+                    system("pause");
                     break;
             case 3:
                     printf("\n      CONVERSOR DE PESOS MEXICANOS (MXN)");
                     printf("\n      EUROS (EUR)");
                     printf("\n\n %.2f MXN equivalen a %.2f EUR.\n\n Tipo de cambio actualizado al 26 de abril de 2021.\n\n", mxn, mxn * eur);
+                    system("pause");
                     break;
             default:
                     printf("\n\n Ingrese una opci%cn v%clida.", 162, 160);
+                    system("pause");
                     break;
         }
     }
