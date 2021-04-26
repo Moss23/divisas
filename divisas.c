@@ -9,8 +9,8 @@ int main(){
     int divisa;
 
     printf("\n        CONVERSOR DE PESOS MEXICANOS (MXN)");
-    printf("\n\n MENÚ DE OPCIONES");
-    printf("\n\n 1. Convertir a DÓLARES AMERICANOS");
+    printf("\n\n MEN%c DE OPCIONES", 233);
+    printf("\n\n 1. Convertir a D%cLARES AMERICANOS", 224);
     printf("\n 2. Convertir a LIBRAS ESTERLINAS (GBP)");
     printf("\n 3. Convertir a EUROS (EUR)");
     printf("\n\n 4. SALIR");
@@ -19,7 +19,7 @@ int main(){
     system("cls");
     if(divisa == 4){
         printf("\n      CONVERSOR DE PESOS MEXICANOS (MXN)");
-        printf("\n Gracias por utilizar el conversor de divisas.\n\n");
+        printf("\n\n Gracias por utilizar el conversor de divisas.\n\n");
         system("pause");
         exit (-1);
     }else{
@@ -29,7 +29,7 @@ int main(){
         switch (divisa){
             case 1:
                     printf("\n      CONVERSOR DE PESOS MEXICANOS (MXN)");
-                    printf("\n      DÓLARES AMERICANOS (USD)");
+                    printf("\n      D%cLARES AMERICANOS (USD)", 224);
                     printf("\n\n %.2f MXN equivalen a %.2f USD.\n\n Tipo de cambio actualizado al 26 de abril de 2021.\n\n", mxn, mxn * usd);
                     break;
             case 2:
@@ -43,7 +43,7 @@ int main(){
                     printf("\n\n %.2f MXN equivalen a %.2f EUR.\n\n Tipo de cambio actualizado al 26 de abril de 2021.\n\n", mxn, mxn * eur);
                     break;
             default:
-                    printf("\n\n Ingrese una opción válida.");
+                    printf("\n\n Ingrese una opci%cn válida.", 162);
                     break;
         }
     }
